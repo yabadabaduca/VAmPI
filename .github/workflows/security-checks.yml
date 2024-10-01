@@ -1,4 +1,4 @@
-name: MobSF
+name: Security-Checks
 
 on:
   push:
@@ -36,8 +36,6 @@ jobs:
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: results.sarif
-
-name: Semgrep
 
 on:
   push:
