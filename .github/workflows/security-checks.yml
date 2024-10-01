@@ -3,13 +3,6 @@ name: Security-Checks
 on:
   push:
     branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
-  schedule:
-    - cron: '34 4 * * 2'
-
-permissions:
-  contents: read
 
 jobs:
   mobile-security:
